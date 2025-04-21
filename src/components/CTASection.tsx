@@ -7,11 +7,19 @@ const CTASection = () => {
             <p className="text-lg mb-8">
                 Lets simplify your visa process. Get expert help now.
             </p>
-            <a
-                href="/apply"
+            {/* <a
+                href="/consultation"
                 className="bg-white text-indigo-700 font-semibold px-6 py-3 rounded-xl hover:bg-indigo-100 transition"
             >
                 Get a Free Consultation
+            </a> */}
+            <a
+                href="https://wa.me/01627166238?text=Hi%2C%20I%27m%20interested%20in%20visa%20consultation"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-green-500 text-white text-lg font-semibold px-6 py-3 rounded-xl shadow hover:bg-green-600 transition"
+            >
+                💬 Message Us on WhatsApp
             </a>
         </section>
     );
