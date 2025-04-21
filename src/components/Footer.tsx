@@ -40,7 +40,7 @@ const Footer = () => {
       </div>
 
       <div className="text-center text-xs text-gray-500 mt-8">
-        &copy; {new Date().getFullYear()} EduVisaPro. All rights reserved.
+        &copy; {new Date().getFullYear()} Eurika Education. All rights reserved.
       </div>
     </footer>
   );
