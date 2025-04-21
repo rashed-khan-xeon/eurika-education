@@ -32,8 +32,8 @@ const Footer = () => {
             3rd Floor, 123/6 East Monipur,<br />
             Mirpur-2, Dhaka - 1216<br />
             Bangladesh<br />
-            <a href="tel:+8801660128009">
-              📞 +880-166012-8009
+            <a href="tel:+8801627166238">
+              📞 +880 1627-166238
             </a>
           </address>
         </div>
