@@ -1,19 +1,50 @@
 // components/Footer.tsx
 
+// components/Footer.tsx
+
 const Footer = () => {
-    return (
-      <footer className="bg-gray-100 py-10 mt-10">
-        <div className="max-w-6xl mx-auto px-4 text-center">
-          <p className="text-lg font-semibold text-blue-600 mb-2">Eurika Education</p>
-          <p className="text-gray-600">© {new Date().getFullYear()} Eurika Education. All rights reserved.</p>
-          <div className="mt-4 space-x-4 text-sm text-gray-500">
-            <a href="/privacy" className="hover:text-blue-600">Privacy Policy</a>
-            <a href="/terms" className="hover:text-blue-600">Terms of Service</a>
-          </div>
+  return (
+    <footer className="bg-gray-900 text-white py-10 px-6">
+      <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+
+        {/* Brand / Logo */}
+        <div>
+          <h3 className="text-xl font-bold mb-2">Eurika Education</h3>
+          <p className="text-sm text-gray-400">Your trusted partner in global education visa services.</p>
         </div>
-      </footer>
-    );
-  };
-  
-  export default Footer;
-  
+
+        {/* Quick Links */}
+        <div>
+          <h4 className="text-lg font-semibold mb-2">Quick Links</h4>
+          <ul className="space-y-1 text-sm text-gray-300">
+            <li><a href="/about" className="hover:text-white">About Us</a></li>
+            <li><a href="/services" className="hover:text-white">Services</a></li>
+            <li><a href="/apply" className="hover:text-white">Apply Now</a></li>
+            <li><a href="/contact" className="hover:text-white">Contact</a></li>
+          </ul>
+        </div>
+
+        {/* Office Address */}
+        <div>
+          <h4 className="text-lg font-semibold mb-2">Office Address</h4>
+          <address className="not-italic text-sm text-gray-300 leading-relaxed">
+            Eurika Education<br />
+            3rd Floor, 123/6 East Monipur,<br />
+            Mirpur-2, Dhaka - 1216<br />
+            Bangladesh<br />
+            <a href="tel:+8801660128009">
+              📞 +880-166012-8009
+            </a>
+          </address>
+        </div>
+      </div>
+
+      <div className="text-center text-xs text-gray-500 mt-8">
+        &copy; {new Date().getFullYear()} EduVisaPro. All rights reserved.
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
+
