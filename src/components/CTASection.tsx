@@ -5,7 +5,7 @@ const CTASection = () => {
                 Ready to Study Abroad?
             </h2>
             <p className="text-lg mb-8">
-                Let's simplify your visa process. Get expert help now.
+                Lets simplify your visa process. Get expert help now.
             </p>
             <a
                 href="/apply"
