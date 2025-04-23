@@ -1,6 +1,6 @@
 // components/Footer.tsx
 import Image from 'next/image'
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa'
+import { FaFacebookF, FaWhatsapp } from 'react-icons/fa'
 
 const Footer = () => {
 
