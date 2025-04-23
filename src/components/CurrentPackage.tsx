@@ -10,7 +10,7 @@ const packages = [
     image: '/images/portugal.jpg',
     ielts: false,
     tutionFee: "2000 - 6000 Euro tuition fees per year",
-    deadLine: "January to July for September intake",
+    deadLine: "January to July for September(2025) intake",
     features: [
       '(8.5/9) lakh taka all includes except air ticket',
       'Without IELTS',
@@ -32,7 +32,7 @@ const packages = [
     image: '/images/spain.avif',
     ielts: false,
     tutionFee: "1500 - 4000 Euro tuition fees per year",
-    deadLine: "January to July for September intake",
+    deadLine: "January to July for September(2025) intake",
     features: [
       '(7/7.5) lakh taka all includes except air ticket',
       'Without IELTS ',
@@ -62,7 +62,7 @@ const packages = [
       'Scholarship available',
       'Schengen Country'
     ],
-    tutionFee: "2500 - 4000 Euro tuition fees per year",
+    tutionFee: "2500 - 4000 Euro tuition fees per semester/year",
     deadLine: "January to July for September(2025) intake",
   },
   {
@@ -80,7 +80,7 @@ const packages = [
       'Highest income country',
     ],
     tutionFee: "500 - 1500 Euro tuition fees per year",
-    deadLine: "January to July for September intake",
+    deadLine: "January to July for September(2025) intake",
   },
   {
     title: 'Bulgaria',
@@ -97,7 +97,7 @@ const packages = [
       'Study gap acceptable'
     ],
     tutionFee: "1200 - 3000 Euro tuition fees per year",
-    deadLine: " January to July for September intake",
+    deadLine: " January to July for September(2025) intake",
   },
   {
     title: 'Czech Republic',
@@ -117,14 +117,14 @@ const packages = [
       'Schengen Country',
     ],
     tutionFee: "1500 - 4000 Euro tuition fees per year",
-    deadLine: "January to July for September intake",
+    deadLine: "January to July for September(2025) intake",
   },
   {
     title: 'Iceland',
     ielts: true,
     image: '/images/iceland.avif',
     tutionFee: "2500 - 4000 Euro tuition fees per year",
-    deadLine: "January to July for September intake",
+    deadLine: "January to July for September(2025) intake",
     features: [
       '(8.5/9) lakh taka all includes except air ticket',
       'Easy Admission Process',
@@ -144,7 +144,7 @@ const packages = [
     ielts: true,
     image: '/images/lithuania.avif',
     tutionFee: "2000 - 4000 Euro tuition fees per year",
-    deadLine: "January to July for September intake",
+    deadLine: "January to July for September(2025) intake",
     features: [
       '(7.5/8) lakh taka all includes except air ticket',
       'Easy Admission Process',
@@ -174,7 +174,7 @@ const packages = [
       'Settle after study'
     ],
     tutionFee: "2000- 14000 Euro tuition fees per year",
-    deadLine: "January to July for September intake",
+    deadLine: "January to July for September(2025) intake",
   },
   {
     title: 'Denmark',
@@ -192,7 +192,7 @@ const packages = [
       'Highest income country'
     ],
     tutionFee: "6000 - 12000 Euro tuition fees per year",
-    deadLine: "January to July for September intake",
+    deadLine: "January to July for September(2025) intake",
 
   },
   {
@@ -200,7 +200,7 @@ const packages = [
     image: '/images/netherlands.jpg',
     ielts: true,
     tutionFee: "2000 - 14000 Euro tuition fees per year",
-    deadLine: "January to July for September intake",
+    deadLine: "January to July for September(2025) intake",
     features: [
       'Easy Admission Process',
       'Study Gap Accepted ',
@@ -219,7 +219,7 @@ const packages = [
     image: '/images/poland.avif',
     ielts: false,
     tutionFee: "1800 - 4500 Euro tuition fees per year",
-    deadLine: "January to July for September intake",
+    deadLine: "January to July for September(2025) intake",
     features: [
       '(8/9) lakh taka all includes except air ticket',
       'Easy Admission Process',
@@ -236,7 +236,7 @@ const packages = [
     image: '/images/slovakia.jpg',
     ielts: false,
     tutionFee: "500 - 4000 Euro tuition fees per year",
-    deadLine: "January to July for September intake",
+    deadLine: "January to July for September(2025) intake",
     features: [
       '(7.5/8.5) lakh taka all includes except air ticket',
       'IELTS 5.5',
@@ -253,7 +253,7 @@ const packages = [
     image: '/images/solvenia.avif',
     ielts: true,
     tutionFee: "500 - 4000 Euro tuition fees per year",
-    deadLine: "January to July for September intake",
+    deadLine: "January to July for September(2025) intake",
     features: [
       '(8/9) lakh taka all includes except air ticket',
       'IELTS 5.5',
