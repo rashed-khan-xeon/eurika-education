@@ -15,7 +15,7 @@ export async function POST(request: Request) {
     }
 }
 
-async function sendSimpleMessage(name: any, email: any, message: any) {
+async function sendSimpleMessage(name: string, email: string, message: string) {
     const mailgun = new Mailgun(FormData);
     const mg = mailgun.client({
         username: "api",
