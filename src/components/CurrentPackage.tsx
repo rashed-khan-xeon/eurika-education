@@ -140,7 +140,7 @@ const CurrentPackage = () => {
               />
               <div className="p-6">
                 {pkg.ielts ? <Chip label={'IELTS'} color='red' className='cursor-pointer font-bold' /> : <Chip label={"Without IELTS"} color='green' className='cursor-pointer font-bold' />}
-                <h3 className="text-xl font-semibold mb-3 text-blue-600">{pkg.title}</h3>
+                <h3 className="text-xl font-semibold mb-3 mt-2 text-blue-600">{pkg.title}</h3>
                 <ul className="list-disc list-inside text-gray-600 text-sm space-y-1">
                   {pkg.features.map((point, i) => (
                     <li key={i}>{point}</li>
