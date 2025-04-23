@@ -41,7 +41,7 @@ const VisaSuccessPage = () => {
                         <div className="p-5">
                             <h3 className="text-lg font-semibold text-gray-800">{student.name}</h3>
                             <p className="text-blue-600 text-sm">{student.country}</p>
-                            <p className="text-gray-600 text-sm mt-2 italic">"{student.quote}"</p>
+                            <p className="text-gray-600 text-sm mt-2 italic">“{student.quote}”</p>
                         </div>
                     </div>
                 ))}
