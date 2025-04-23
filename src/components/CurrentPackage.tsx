@@ -29,7 +29,7 @@ const packages = [
   },
   {
     title: 'Spain',
-    image: '/images/spain.png',
+    image: '/images/spain.avif',
     ielts: false,
     tutionFee: "1500 - 4000 Euro tuition fees per year",
     deadLine: "January to July for September intake",
