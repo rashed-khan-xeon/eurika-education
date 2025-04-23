@@ -8,7 +8,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-gray-900 text-white py-10 px-6">
-      <div className="max-w-6xl mx-auto grid md:grid-cols-4 gap-8">
+      <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-8">
 
         {/* Brand / Description */}
         <div>
@@ -67,7 +67,7 @@ const Footer = () => {
         <div>
           <h4 className="text-lg font-semibold mb-2">Portugal Office</h4>
           <address className="not-italic text-sm text-gray-300 leading-relaxed">
-            Eurika Education<br />             
+            Eurika Education<br />
             Porto<br />
             Portugal<br />
             <a href="tel:+8801627166238">

@@ -104,6 +104,7 @@ const packages = [
     image: '/images/czech.jpg',
     ielts: false,
     features: [
+      '(8/9) lakh taka',
       'Without IELTS',
       'Low cost of living',
       'Transfer from student permit to work permit',
@@ -218,6 +219,7 @@ const packages = [
     tutionFee: "1800 - 4500 euro per year",
     deadLine: "January to July for September intake",
     features: [
+      '(8/9) lakh taka',
       'Easy Admission Process',
       'Affordable Tuition fee',
       'Good Success Ratio',
@@ -264,7 +266,7 @@ const packages = [
 const CurrentPackage = () => {
   return (
     <section className="py-16 bg-white px-6">
-      <div className="max-w-6xl mx-auto text-center">
+      <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-3xl font-bold text-gray-800 mb-4">🎓 Countries We Process</h2>
         <p className="text-gray-600 max-w-2xl mx-auto mb-10">
           Everything you need for a smooth admission and visa process — bundled into one expert-guided package:

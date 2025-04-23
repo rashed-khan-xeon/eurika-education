@@ -1,7 +1,7 @@
 const AboutPreview = () => {
     return (
         <section className="py-16 px-6">
-            <div className="max-w-5xl mx-auto text-center">
+            <div className="max-w-7xl mx-auto text-center">
                 <h2 className="text-3xl font-bold mb-6">Why Choose Us?</h2>
                 <p className="text-lg mb-6">
                     With a 95% success rate and hundreds of happy students globally, we bring expertise,
