@@ -26,12 +26,12 @@ const Footer = () => {
             <a href="https://facebook.com/eurikaeducation" target="_blank" rel="noopener noreferrer">
               <FaFacebookF className="text-gray-300 hover:text-white transition text-lg" />
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            {/* <a href="#" target="_blank" rel="noopener noreferrer">
               <FaInstagram className="text-gray-300 hover:text-white transition text-lg" />
             </a>
             <a href="#" target="_blank" rel="noopener noreferrer">
               <FaLinkedinIn className="text-gray-300 hover:text-white transition text-lg" />
-            </a>
+            </a> */}
             <a href="https://wa.me/01627166238?text=Hi%2C%20I%27m%20interested%20in%20visa%20consultation" target="_blank" rel="noopener noreferrer">
               <FaWhatsapp className="text-gray-300 hover:text-white transition text-lg" />
             </a>
