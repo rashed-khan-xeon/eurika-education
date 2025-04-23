@@ -1,9 +1,35 @@
 // app/contact/page.tsx
 "use client"
+import Image from "next/image";
 import { useState } from "react";
 
 export default function ContactPage() {
+    return (
+        <div className="relative w-full h-screen bg-gray-900">
+            {/* Background Image */}
+            <Image
+                src="/images/contact.jpg"
+                alt="Contact background"
+                layout="fill"
+                objectFit="cover"
+                className="opacity-40"
+                priority
+            />
 
+            {/* Overlay Content */}
+            <div className="absolute inset-0 flex items-center justify-center">
+                <div className="bg-white/90 backdrop-blur-sm p-8 rounded-xl max-w-lg w-full shadow-lg">
+                    <h2 className="text-2xl font-bold text-center text-blue-700 mb-4">Get in Touch</h2>
+                    <ContactForm />
+                </div>
+            </div>
+        </div>
+    );
+
+}
+
+
+function ContactForm() {
     const [form, setForm] = useState({ name: '', email: '', message: '' });
     const [status, setStatus] = useState('');
 
