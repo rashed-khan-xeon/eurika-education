@@ -60,6 +60,12 @@ const Footer = () => {
             <a href="tel:+8801627166238">
               📞 +880 1627-166238
             </a>
+            <a href="https://wa.me/01627166238?text=Hi%2C%20I%27m%20interested%20in%20visa%20consultation"
+              target="_blank"
+              className='flex gap-x-1'
+              rel="noopener noreferrer">
+              <FaWhatsapp className="text-gray-300 hover:text-white transition text-lg" />+880 1627-166238
+            </a>
           </address>
         </div>
 
@@ -72,6 +78,12 @@ const Footer = () => {
             Portugal<br />
             <a href="tel:+8801627166238">
               📞 +351 920 682 186
+            </a>
+            <a href="https://wa.me/+351920682186?text=Hi%2C%20I%27m%20interested%20in%20visa%20consultation"
+              target="_blank"
+              className='flex gap-x-1'
+              rel="noopener noreferrer">
+              <FaWhatsapp className="text-gray-300 hover:text-white transition text-lg" />+351 920 682 186
             </a>
           </address>
         </div>
