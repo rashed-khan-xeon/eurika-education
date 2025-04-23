@@ -1,14 +1,24 @@
 // components/Footer.tsx
+import Image from 'next/image'
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa'
 
 const Footer = () => {
+
+  const logo = "/images/eurikalogolarge.png"
+
   return (
     <footer className="bg-gray-900 text-white py-10 px-6">
       <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
 
         {/* Brand / Description */}
         <div>
-          <h3 className="text-xl font-bold mb-2">EduVisaPro</h3>
+          <Image
+            src={logo}
+            alt={"Eurika Education"}
+            width={200}
+            height={100}           
+          />
+          {/* <h3 className="text-xl font-bold mb-2">Eurika Education</h3> */}
           <p className="text-sm text-gray-400">Your trusted partner in global education visa services.</p>
 
           {/* Social Media Icons */}
