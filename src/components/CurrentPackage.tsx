@@ -12,7 +12,7 @@ const packages = [
     tutionFee: "2000 - 6000 Euro tuition fees per year",
     deadLine: "January to July for September intake",
     features: [
-      '(8.5/9) lakh taka',
+      '(8.5/9) lakh taka all includes except air ticket',
       'Without IELTS',
       'Affordable tuition fees',
       'Study gaps acceptable ',
@@ -34,7 +34,7 @@ const packages = [
     tutionFee: "1500 - 4000 Euro tuition fees per year",
     deadLine: "January to July for September intake",
     features: [
-      '(7/7.5) lakh taka ',
+      '(7/7.5) lakh taka all includes except air ticket',
       'Without IELTS ',
       'Low cost of living', 
       'Apply for residency after study',
@@ -49,7 +49,7 @@ const packages = [
     image: '/images/hungary.jpg',
     ielts: false,
     features: [
-      '(8.6/9) lakh taka',
+      '(8.6/9) lakh taka all includes except air ticket',
       'No Need to Go India',
       'Easy Admission Process',
       'Affordable Tuition fee',
@@ -70,7 +70,7 @@ const packages = [
     image: '/images/italy.jpg',
     ielts: false,
     features: [
-      '( 5/6) lakh taka',
+      '(5/6) lakh taka all includes except air ticket',
       'Admission without IELTS (conditions apply)',
       'Low cost of living',
       'Job opportunity',
@@ -87,7 +87,7 @@ const packages = [
     image: '/images/bulgaria.png',
     ielts: false,
     features: [
-      '(5/6) lakh taka',
+      '(5/6) lakh taka all includes except air ticket',
       'Schengen Country',
       'Without IELTS',
       'Low cost of living',
@@ -104,7 +104,7 @@ const packages = [
     image: '/images/czech.jpg',
     ielts: false,
     features: [
-      '(8/9) lakh taka',
+      '(8/9) lakh taka all includes except air ticket',
       'Without IELTS',
       'Low cost of living',
       'Transfer from student permit to work permit',
