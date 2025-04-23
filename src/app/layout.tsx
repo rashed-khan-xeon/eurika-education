@@ -13,10 +13,10 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
-
-export const metadata: Metadata = {
-  title: "Eurika Education",
-  description: "Solution for your global education.",
+ 
+export const metadata = {
+  title: "Contact Us | Eurika Education",
+  description: "Solution for your global education. Reach out for a free consultation on study visas for Canada, UK & more.",
 };
 
 export default function RootLayout({
