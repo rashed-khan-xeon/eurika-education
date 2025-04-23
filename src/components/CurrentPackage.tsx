@@ -126,6 +126,7 @@ const packages = [
     tutionFee: "2500 - 4000 Euro tuition fees per year",
     deadLine: "January to July for September intake",
     features: [
+      '(8.5/9) lakh taka all includes except air ticket',
       'Easy Admission Process',
       'Affordable Tuition fee',
       'Almost 90% visa Ratio',
@@ -145,6 +146,7 @@ const packages = [
     tutionFee: "2000 - 4000 Euro tuition fees per year",
     deadLine: "January to July for September intake",
     features: [
+      '(7.5/8) lakh taka all includes except air ticket',
       'Easy Admission Process',
       'Affordable Tuition fee',
       'Good Success Ratio',
@@ -219,7 +221,7 @@ const packages = [
     tutionFee: "1800 - 4500 Euro tuition fees per year",
     deadLine: "January to July for September intake",
     features: [
-      '(8/9) lakh taka',
+      '(8/9) lakh taka all includes except air ticket',
       'Easy Admission Process',
       'Affordable Tuition fee',
       'Good Success Ratio',
@@ -236,6 +238,7 @@ const packages = [
     tutionFee: "500 - 4000 Euro tuition fees per year",
     deadLine: "January to July for September intake",
     features: [
+      '(7.5/8.5) lakh taka all includes except air ticket',
       'IELTS 5.5',
       'Low cost of living',
       'World-renowned university',
@@ -252,6 +255,7 @@ const packages = [
     tutionFee: "500 - 4000 Euro tuition fees per year",
     deadLine: "January to July for September intake",
     features: [
+      '(8/9) lakh taka all includes except air ticket',
       'IELTS 5.5',
       'Low cost of living',
       'World-renowned university',
