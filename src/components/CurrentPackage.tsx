@@ -1,6 +1,4 @@
-// components/CurrentPackage.tsx
-import Image from 'next/image';
-import Chip from './Chip';
+// components/CurrentPackage.tsx 
 import PackageCard from './PackageCard';
 
 
@@ -171,6 +169,7 @@ const CurrentPackage = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {packages.map((pkg, index) => (
             <PackageCard
+              key={index}
               pkg={{
                 title: pkg.title,
                 tag: pkg.ielts ? "IELTS" : "NO IELTS",

@@ -4,8 +4,7 @@ import { useState } from 'react';
 import Modal from './Modal';
 import Image from 'next/image';
 import Chip from './Chip';
-import { FaArrowRight, FaClock, FaDollarSign, FaMoneyBill } from 'react-icons/fa';
-import { FaTimeline } from 'react-icons/fa6';
+import { FaArrowRight, FaClock, FaDollarSign } from 'react-icons/fa';
 
 type Package = {
     title: string;
