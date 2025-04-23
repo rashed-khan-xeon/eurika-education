@@ -5,7 +5,7 @@ import clsx from 'clsx';
 
 type ChipProps = {
     label: string;
-    color?: 'blue' | 'green' | 'yellow' | 'gray' | 'red';
+    color?: 'blue' | 'green' | 'yellow' | 'gray' | 'red' | 'green';
     className?: string;
 };
 
