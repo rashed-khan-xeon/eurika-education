@@ -8,7 +8,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-gray-900 text-white py-10 px-6">
-      <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+      <div className="max-w-6xl mx-auto grid md:grid-cols-4 gap-8">
 
         {/* Brand / Description */}
         <div>
@@ -16,7 +16,7 @@ const Footer = () => {
             src={logo}
             alt={"Eurika Education"}
             width={200}
-            height={100}           
+            height={100}
           />
           {/* <h3 className="text-xl font-bold mb-2">Eurika Education</h3> */}
           <p className="text-sm text-gray-400">Your trusted partner in global education visa services.</p>
@@ -51,7 +51,7 @@ const Footer = () => {
 
         {/* Address */}
         <div>
-          <h4 className="text-lg font-semibold mb-2">Office Address</h4>
+          <h4 className="text-lg font-semibold mb-2">Dhaka Office</h4>
           <address className="not-italic text-sm text-gray-300 leading-relaxed">
             Eurika Education<br />
             3rd Floor, 123/6 East Monipur,<br />
@@ -59,6 +59,19 @@ const Footer = () => {
             Bangladesh<br />
             <a href="tel:+8801627166238">
               📞 +880 1627-166238
+            </a>
+          </address>
+        </div>
+
+        {/* Address Portugal */}
+        <div>
+          <h4 className="text-lg font-semibold mb-2">Portugal Office</h4>
+          <address className="not-italic text-sm text-gray-300 leading-relaxed">
+            Eurika Education<br />             
+            Porto<br />
+            Portugal<br />
+            <a href="tel:+8801627166238">
+              📞 +351 920 682 186
             </a>
           </address>
         </div>
