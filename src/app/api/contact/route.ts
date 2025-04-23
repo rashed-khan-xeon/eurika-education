@@ -36,3 +36,5 @@ async function sendSimpleMessage(name: string, email: string, message: string) {
         console.log(error); //logs any error
     }
 }
+
+export const runtime = 'edge';
