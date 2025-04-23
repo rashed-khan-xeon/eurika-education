@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Modal from './Modal';
 import Image from 'next/image';
 import Chip from './Chip';
-import { FaArrowRight, FaClock, FaDollarSign, FaEuroSign } from 'react-icons/fa';
+import { FaArrowRight, FaClock, FaEuroSign } from 'react-icons/fa';
 
 type Package = {
     title: string;
