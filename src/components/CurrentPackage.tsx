@@ -1,11 +1,13 @@
 // components/CurrentPackage.tsx
 
 import Image from 'next/image';
+import Chip from './Chip';
 
 const packages = [
   {
     title: 'France',
     image: '/images/france.jpg',
+    ielts: false,
     features: [
       'Shortlist universities based on profile & budget',
       'Country and program-wise recommendations',
@@ -15,6 +17,7 @@ const packages = [
   {
     title: 'Portugal',
     image: '/images/portugal.jpg',
+    ielts: false,
     features: [
       'Complete document checklist & assistance',
       'Mock interview preparation',
@@ -24,6 +27,7 @@ const packages = [
   {
     title: 'Spain',
     image: '/images/spain.png',
+    ielts: false,
     features: [
       'Statement of Purpose writing & editing',
       'CV & LOR review',
@@ -33,6 +37,7 @@ const packages = [
   {
     title: 'Hungary',
     image: '/images/hungary.jpg',
+    ielts: false,
     features: [
       'Statement of Purpose writing & editing',
       'CV & LOR review',
@@ -42,6 +47,7 @@ const packages = [
   {
     title: 'Italy',
     image: '/images/italy.jpg',
+    ielts: false,
     features: [
       'Statement of Purpose writing & editing',
       'CV & LOR review',
@@ -51,6 +57,7 @@ const packages = [
   {
     title: 'Bulgaria',
     image: '/images/bulgaria.png',
+    ielts: false,
     features: [
       'Statement of Purpose writing & editing',
       'CV & LOR review',
@@ -60,6 +67,7 @@ const packages = [
   {
     title: 'Czech Republic',
     image: '/images/czech.jpg',
+    ielts: false,
     features: [
       'Statement of Purpose writing & editing',
       'CV & LOR review',
@@ -68,6 +76,7 @@ const packages = [
   },
   {
     title: 'Luxembourg',
+    ielts: true,
     image: '/images/luxemberg.jpeg',
     features: [
       'Statement of Purpose writing & editing',
@@ -78,6 +87,7 @@ const packages = [
   {
     title: 'Norway',
     image: '/images/norway.jpeg',
+    ielts: true,
     features: [
       'Statement of Purpose writing & editing',
       'CV & LOR review',
@@ -87,6 +97,7 @@ const packages = [
   {
     title: 'Denmark',
     image: '/images/denmark.jpg',
+    ielts: true,
     features: [
       'Statement of Purpose writing & editing',
       'CV & LOR review',
@@ -96,6 +107,7 @@ const packages = [
   {
     title: 'Netherlands',
     image: '/images/netherlands.jpg',
+    ielts: true,
     features: [
       'Statement of Purpose writing & editing',
       'CV & LOR review',
@@ -127,6 +139,7 @@ const CurrentPackage = () => {
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
+                {pkg.ielts ? <Chip label={'IELTS'} color='red' className='cursor-pointer font-bold' /> : <Chip label={"Without IELTS"} color='green' className='cursor-pointer font-bold' />}
                 <h3 className="text-xl font-semibold mb-3 text-blue-600">{pkg.title}</h3>
                 <ul className="list-disc list-inside text-gray-600 text-sm space-y-1">
                   {pkg.features.map((point, i) => (
@@ -137,8 +150,6 @@ const CurrentPackage = () => {
             </div>
           ))}
         </div>
-
-         
       </div>
     </section>
   );
