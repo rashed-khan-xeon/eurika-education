@@ -96,6 +96,7 @@ function ContactForm() {
                         className="w-full border border-gray-300 p-3 rounded-xl"
                     />
                 </div>
+                <p>{status}</p>
                 <button
                     type="submit"
                     className="bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 transition"

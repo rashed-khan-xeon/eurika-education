@@ -3,7 +3,6 @@
 import FormData from "form-data"; // form-data v4.0.1
 import Mailgun from "mailgun.js"; // mailgun.js v11.1.0
 import { NextResponse } from 'next/server';
-import nodemailer from 'nodemailer';
 
 export async function POST(request: Request) {
     console.log("Sending email")
@@ -29,7 +28,7 @@ async function sendSimpleMessage(name: any, email: any, message: any) {
             from: "Mailgun Sandbox <postmaster@mail.eurikaeducation.com>",
             to: ["Rashed Khan <contact@eurikaeducation.com>"],
             subject: "Hello Rashed Khan",
-            text: "Congratulations Rashed Khan, you just sent an email with Mailgun! You are truly awesome!",
+            text: `Name: ${name}, Email: ${email}, Message: ${message}`,
         });
 
         console.log(data); // logs response data
