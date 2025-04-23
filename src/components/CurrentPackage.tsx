@@ -4,8 +4,8 @@ import Image from 'next/image';
 
 const packages = [
   {
-    title: 'University Selection',
-    image: '/images/university.jpg',
+    title: 'France',
+    image: '/images/france.jpg',
     features: [
       'Shortlist universities based on profile & budget',
       'Country and program-wise recommendations',
@@ -13,8 +13,8 @@ const packages = [
     ],
   },
   {
-    title: 'Visa Guidance',
-    image: '/images/visa.jpg',
+    title: 'Portugal',
+    image: '/images/portugal.jpg',
     features: [
       'Complete document checklist & assistance',
       'Mock interview preparation',
@@ -22,8 +22,80 @@ const packages = [
     ],
   },
   {
-    title: 'SOP & Document Review',
-    image: '/images/documents.jpg',
+    title: 'Spain',
+    image: '/images/spain.png',
+    features: [
+      'Statement of Purpose writing & editing',
+      'CV & LOR review',
+      'Financial document guidance',
+    ],
+  },
+  {
+    title: 'Hungary',
+    image: '/images/hungary.jpg',
+    features: [
+      'Statement of Purpose writing & editing',
+      'CV & LOR review',
+      'Financial document guidance',
+    ],
+  },
+  {
+    title: 'Italy',
+    image: '/images/italy.jpg',
+    features: [
+      'Statement of Purpose writing & editing',
+      'CV & LOR review',
+      'Financial document guidance',
+    ],
+  },
+  {
+    title: 'Bulgaria',
+    image: '/images/bulgaria.png',
+    features: [
+      'Statement of Purpose writing & editing',
+      'CV & LOR review',
+      'Financial document guidance',
+    ],
+  },
+  {
+    title: 'Czech Republic',
+    image: '/images/czech.jpg',
+    features: [
+      'Statement of Purpose writing & editing',
+      'CV & LOR review',
+      'Financial document guidance',
+    ],
+  },
+  {
+    title: 'Luxembourg',
+    image: '/images/luxemberg.jpeg',
+    features: [
+      'Statement of Purpose writing & editing',
+      'CV & LOR review',
+      'Financial document guidance',
+    ],
+  },
+  {
+    title: 'Norway',
+    image: '/images/norway.jpeg',
+    features: [
+      'Statement of Purpose writing & editing',
+      'CV & LOR review',
+      'Financial document guidance',
+    ],
+  },
+  {
+    title: 'Denmark',
+    image: '/images/denmark.jpg',
+    features: [
+      'Statement of Purpose writing & editing',
+      'CV & LOR review',
+      'Financial document guidance',
+    ],
+  },
+  {
+    title: 'Netherlands',
+    image: '/images/netherlands.jpg',
     features: [
       'Statement of Purpose writing & editing',
       'CV & LOR review',
@@ -36,7 +108,7 @@ const CurrentPackage = () => {
   return (
     <section className="py-16 bg-white px-6">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-3xl font-bold text-gray-800 mb-4">🎓 Current Admission Package</h2>
+        <h2 className="text-3xl font-bold text-gray-800 mb-4">🎓 Countries We Process</h2>
         <p className="text-gray-600 max-w-2xl mx-auto mb-10">
           Everything you need for a smooth admission and visa process — bundled into one expert-guided package:
         </p>
