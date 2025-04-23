@@ -1,7 +1,7 @@
 const services = [
     {
       title: "Student Visa",
-      description: "Complete guidance for student visa applications to the UK, Canada and more.",
+      description: "Complete guidance for student visa applications to the top ranking universities.",
     },
     {
       title: "Document Preparation",
