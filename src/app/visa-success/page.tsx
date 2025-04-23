@@ -7,7 +7,7 @@ const visaSuccessData = [
         name: 'Aarav Mehta',
         country: 'Italy',
         image: '/images/success/p1.jpg',
-        quote: 'EduVisaPro made my dream to study in Canada a reality!',
+        quote: 'Eurika Education made my dream to study in Italy a reality!',
     },
     {
         name: 'Sneha Reddy',
@@ -19,7 +19,7 @@ const visaSuccessData = [
         name: 'Rohan Sharma',
         country: 'Luxemberg',
         image: '/images/success/p3.jpg',
-        quote: 'Visa approved in just 2 weeks! Thank you team!',
+        quote: 'Visa approved in just 2 weeks! Thank you Eurika Education team!',
     },
 ];
 
@@ -51,3 +51,4 @@ const VisaSuccessPage = () => {
 };
 
 export default VisaSuccessPage;
+ 
