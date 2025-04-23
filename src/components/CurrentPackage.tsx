@@ -9,7 +9,7 @@ const packages = [
     title: 'Portugal',
     image: '/images/portugal.jpg',
     ielts: false,
-    tutionFee: "2000-6000 euro per year",
+    tutionFee: "2000 - 6000 euro per year",
     deadLine: "January to July for September intake",
     features: [
       '(8.5/9) lakh taka',
@@ -21,7 +21,7 @@ const packages = [
       'Spouse allowed after three months',
       'Passport can be obtained within three to five years',
       'Quickly settled',
-      'Study time accountable for passport',
+      'Study time countable for passport',
       'All public universities',
       'Scholarship available',
       'Schengen Country',
@@ -31,14 +31,13 @@ const packages = [
     title: 'Spain',
     image: '/images/spain.png',
     ielts: false,
-    tutionFee: "1500-4000 Euro per year Tuition fees",
+    tutionFee: "1500 - 4000 Euro per year Tuition fees",
     deadLine: "January to July for September intake",
     features: [
       '(7/7.5) lakh taka ',
       'Without IELTS ',
-      'Low cost of living',
-      'Eligible for Post Graduate Working Permit',
-      'Apply for residency for 2 years, After Study',
+      'Low cost of living', 
+      'Apply for residency After 2 years',
       'Job opportunity',
       'All public universities',
       'Scholarship available',
@@ -63,7 +62,7 @@ const packages = [
       'Scholarship available',
       'Schengen Country'
     ],
-    tutionFee: "2500-4000 euro per year",
+    tutionFee: "2500 - 4000 euro per year",
     deadLine: "January to July for September(2025) intake",
   },
   {
@@ -76,11 +75,11 @@ const packages = [
       'Low cost of living',
       'Job opportunity',
       'All public universities',
-      'Scholarships Available',
+      'Scholarship Available',
       'Settle after study',
       'Highest income country',
     ],
-    tutionFee: "500-1500 euro per year",
+    tutionFee: "500 - 1500 euro per year",
     deadLine: "January to July for September intake",
   },
   {
@@ -97,7 +96,7 @@ const packages = [
       'Job opportunities',
       'Study gap acceptable'
     ],
-    tutionFee: "1200-3000 euro per year",
+    tutionFee: "1200 - 3000 euro per year",
     deadLine: " January to July for September intake",
   },
   {
@@ -116,14 +115,14 @@ const packages = [
       'Settle after study',
       'Schengen Country',
     ],
-    tutionFee: "1500-4000 euro per year",
+    tutionFee: "1500 - 4000 euro per year",
     deadLine: "January to July for September intake",
   },
   {
     title: 'Iceland',
     ielts: true,
     image: '/images/iceland.avif',
-    tutionFee: "2500-4000 euro per year",
+    tutionFee: "2500 - 4000 euro per year",
     deadLine: "January to July for September intake",
     features: [
       'Easy Admission Process',
@@ -142,7 +141,7 @@ const packages = [
     title: 'Lithuania',
     ielts: true,
     image: '/images/lithuania.avif',
-    tutionFee: "2000-4000 euro per year",
+    tutionFee: "2000 - 4000 euro per year",
     deadLine: "January to July for September intake",
     features: [
       'Easy Admission Process',
@@ -171,7 +170,7 @@ const packages = [
       'Highest income country',
       'Settle after study'
     ],
-    tutionFee: "2000-14000 euro per year",
+    tutionFee: "2000- 14000 euro per year",
     deadLine: "January to July for September intake",
   },
   {
@@ -189,7 +188,7 @@ const packages = [
       'Settle after study',
       'Highest income country'
     ],
-    tutionFee: "6000-12000 euro per year",
+    tutionFee: "6000 - 12000 euro per year",
     deadLine: "January to July for September intake",
 
   },
@@ -197,7 +196,7 @@ const packages = [
     title: 'Netherlands',
     image: '/images/netherlands.jpg',
     ielts: true,
-    tutionFee: "2000-14000 euro per year",
+    tutionFee: "2000 - 14000 euro per year",
     deadLine: "January to July for September intake",
     features: [
       'Easy Admission Process',
@@ -216,7 +215,7 @@ const packages = [
     title: 'Poland',
     image: '/images/poland.avif',
     ielts: false,
-    tutionFee: "1800-4500 euro per year",
+    tutionFee: "1800 - 4500 euro per year",
     deadLine: "January to July for September intake",
     features: [
       'Easy Admission Process',
@@ -228,6 +227,38 @@ const packages = [
       'Scholarship available'
     ],
   },
+  {
+    title: 'Slovakia',
+    image: '/images/slovakia.jpg',
+    ielts: false,
+    tutionFee: "500 - 4000 euro per year",
+    deadLine: "January to July for September intake",
+    features: [
+      'IELTS 5.5',
+      'Low cost of living',
+      'World-renowned university',
+      'Wide program options',
+      'Cultural diversity',
+      'All public universities', 
+      'Scholarship available'
+    ],
+  },
+  {
+    title: 'Slovenia',
+    image: '/images/solvenia.avif',
+    ielts: true,
+    tutionFee: "500 - 4000 euro per year",
+    deadLine: "January to July for September intake",
+    features: [
+      'IELTS 5.5',
+      'Low cost of living',
+      'World-renowned university',
+      'Wide program options',
+      'Cultural diversity',
+      'All public universities', 
+      'Scholarship available'
+    ],
+  }
 ];
 
 const CurrentPackage = () => {

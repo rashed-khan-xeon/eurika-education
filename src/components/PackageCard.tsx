@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Modal from './Modal';
 import Image from 'next/image';
 import Chip from './Chip';
-import { FaArrowRight, FaClock, FaDollarSign } from 'react-icons/fa';
+import { FaArrowRight, FaClock, FaDollarSign, FaEuroSign } from 'react-icons/fa';
 
 type Package = {
     title: string;
@@ -42,7 +42,7 @@ const PackageCard = ({ pkg }: { pkg: Package }) => {
                 <div className="p-4">
                     <h3 className="text-xl font-semibold mb-3 mt-2 text-blue-400">{pkg.title}</h3>
                     <div className='flex items-center text-slate-600 space-x-2'>
-                        <FaDollarSign size={16} />
+                        <FaEuroSign size={16} />
                         <p>{pkg.tutionFee}</p>
                     </div>
                     <div className='flex items-center mt-2 text-slate-600  space-x-2'>
