@@ -37,7 +37,7 @@ const packages = [
       '(7/7.5) lakh taka ',
       'Without IELTS ',
       'Low cost of living', 
-      'Apply for residency After 2 years',
+      'Apply for residency after study',
       'Job opportunity',
       'All public universities',
       'Scholarship available',
@@ -106,7 +106,7 @@ const packages = [
     features: [
       'Without IELTS',
       'Low cost of living',
-      'Transfer from student permit to work',
+      'Transfer from student permit to work permit',
       'World-renowned university',
       'Wide program options',
       'Cultural diversity',
