@@ -18,8 +18,7 @@ export default function ContactPage() {
 
             {/* Overlay Content */}
             <div className="absolute inset-0 flex items-center justify-center">
-                <div className="bg-white/90 backdrop-blur-sm p-8 rounded-xl max-w-lg w-full shadow-lg">
-                    <h2 className="text-2xl font-bold text-center text-blue-700 mb-4">Get in Touch</h2>
+                <div className="bg-white/90 backdrop-blur-sm p-8 rounded-xl max-w-4xl w-full shadow-lg">
                     <ContactForm />
                 </div>
             </div>
@@ -57,7 +56,7 @@ function ContactForm() {
 
 
     return (
-        <section className="py-16 px-6 max-w-3xl mx-auto">
+        <section className="py-6 px-6 w-full mx-auto">
             <h1 className="text-3xl font-bold mb-6 text-center">Contact Us</h1>
             <form
                 onSubmit={handleSubmit}
