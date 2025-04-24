@@ -6,6 +6,27 @@ import PackageCard from './PackageCard';
 
 const packages = [
   {
+    title: 'France',
+    image: '/images/france.jpg',
+    ielts: false,
+    tutionFee: "1000 - 4000 Euro tuition fees per year",
+    deadLine: "January to July for September(2025) intake",
+    features: [
+      '(7/8.5) lakh taka all includes except air ticket',
+      'Without IELTS',
+      'Low cost of living',
+      'World-renowned university',
+      'Wide program options',
+      'Cultural diversity',
+      'Scholarships and financial aid',
+      'Job opportunities',
+      'Settle after study',
+      'Highest income country',
+      'All public universities',
+      'Scholarship available'
+    ],
+  },
+  {
     title: 'Portugal',
     image: '/images/portugal.jpg',
     ielts: false,
