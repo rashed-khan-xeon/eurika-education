@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Contact Us | Eurika Education",
+  title: "Eurika Education | Easy Gateway To Global Education",
   description: "Solution for your global education. Reach out for a free consultation on study visas for Canada, UK & more.",
   openGraph: {
     title: 'Home | Eurika Education',

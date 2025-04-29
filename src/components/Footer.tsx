@@ -86,6 +86,9 @@ const Footer = () => {
               <FaWhatsapp className="text-gray-300 hover:text-white transition text-lg" />+351 920 682 186
             </a>
             Lisbon, Portugal<br />
+            <a href="tel:+351929427023">
+              📞 +351 929 427 023
+            </a>
             <a href="https://wa.me/+351929427023?text=Hi%2C%20I%27m%20interested%20in%20visa%20consultation"
               target="_blank"
               className='flex gap-x-1'
