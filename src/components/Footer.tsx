@@ -75,26 +75,30 @@ const Footer = () => {
           <h4 className="text-lg font-semibold mb-2">Portugal Office</h4>
           <address className="not-italic text-sm text-gray-300 leading-relaxed">
             Eurika Education<br />
-            Porto, Portugal<br />
-            <a href="tel:+351920682186">
-              📞 +351 920 682 186
-            </a>
-            <a href="https://wa.me/+351920682186?text=Hi%2C%20I%27m%20interested%20in%20visa%20consultation"
-              target="_blank"
-              className='flex gap-x-1'
-              rel="noopener noreferrer">
-              <FaWhatsapp className="text-gray-300 hover:text-white transition text-lg" />+351 920 682 186
-            </a>
-            Lisbon, Portugal<br />
-            <a href="tel:+351929427023">
-              📞 +351 929 427 023
-            </a>
-            <a href="https://wa.me/+351929427023?text=Hi%2C%20I%27m%20interested%20in%20visa%20consultation"
-              target="_blank"
-              className='flex gap-x-1'
-              rel="noopener noreferrer">
-              <FaWhatsapp className="text-gray-300 hover:text-white transition text-lg" />+351 929 427 023
-            </a>
+            <div>
+              Porto, Portugal<br />
+              <a href="tel:+351920682186">
+                📞 +351 920 682 186
+              </a>
+              <a href="https://wa.me/+351920682186?text=Hi%2C%20I%27m%20interested%20in%20visa%20consultation"
+                target="_blank"
+                className='flex gap-x-1'
+                rel="noopener noreferrer">
+                <FaWhatsapp className="text-gray-300 hover:text-white transition text-lg" />+351 920 682 186
+              </a>
+            </div>
+            <div style={{ borderTop: '2px solid #ccc', marginTop: "10px", paddingTop: "10px" }}>
+              Lisbon, Portugal<br />
+              <a href="tel:+351929427023">
+                📞 +351 929 427 023
+              </a>
+              <a href="https://wa.me/+351929427023?text=Hi%2C%20I%27m%20interested%20in%20visa%20consultation"
+                target="_blank"
+                className='flex gap-x-1'
+                rel="noopener noreferrer">
+                <FaWhatsapp className="text-gray-300 hover:text-white transition text-lg" />+351 929 427 023
+              </a>
+            </div>
           </address>
         </div>
       </div>
