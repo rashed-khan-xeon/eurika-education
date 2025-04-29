@@ -162,7 +162,7 @@ const packages = [
   },
   {
     title: 'Lithuania',
-    ielts: true,
+    ielts: false,
     image: '/images/lithuania.avif',
     tutionFee: "2000 - 4000 Euro tuition fees per year",
     deadLine: "January to July for September(2025) intake",
