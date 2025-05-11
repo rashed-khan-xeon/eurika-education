@@ -56,7 +56,7 @@ const Footer = () => {
           <address className="not-italic text-sm text-gray-300 leading-relaxed">
             Eurika Education<br />
             3rd Floor, 1283/6 East Monipur,<br />
-            Beside Kazipara Metro Station,
+            Beside Kazipara Metro Station,<br />
             Metro Pillar No: 269,<br />
             Mirpur-2, Dhaka - 1216<br />
             Bangladesh<br />
