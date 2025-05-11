@@ -55,7 +55,9 @@ const Footer = () => {
           <h4 className="text-lg font-semibold mb-2">Dhaka Office</h4>
           <address className="not-italic text-sm text-gray-300 leading-relaxed">
             Eurika Education<br />
-            3rd Floor, 123/6 East Monipur,<br />
+            3rd Floor, 1283/6 East Monipur,<br />
+            Beside Kazipara Metro Station,
+            Metro Pillar No: 269,<br />
             Mirpur-2, Dhaka - 1216<br />
             Bangladesh<br />
             <a href="tel:+8801627166238">
