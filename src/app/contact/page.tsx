@@ -17,9 +17,25 @@ export default function ContactPage() {
             />
 
             {/* Overlay Content */}
-            <div className="absolute inset-0 flex items-center justify-center">
-                <div className="bg-white/90 backdrop-blur-sm p-8 rounded-xl max-w-4xl w-full shadow-lg">
-                    <ContactForm />
+            <div className="absolute max-w-7xl mx-auto inset-0 flex-col items-center justify-center pt-24">
+                <div className="rounded-xl p-4 bg-white/90 backdrop-blur-sm">
+                    <h1 className="text-3xl font-bold mb-6 text-center">Contact Us</h1>
+                    <div className="flex w-full gap-2">
+
+                        <ContactForm />
+
+                        <iframe
+                            className="rounded-md"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d228.15550257128967!2d90.3709626!3d23.8012385!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c167b0886a37%3A0xe1776f8607b8a779!2sEurika%20Education!5e0!3m2!1sen!2sbd!4v1747250283581!5m2!1sen!2sbd"
+                            width="600"
+                            height="450"
+                            style={{ border: 0 }}
+                            allowFullScreen={false}
+                            loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade">
+
+                        </iframe>
+                    </div>
                 </div>
             </div>
         </div>
@@ -56,8 +72,7 @@ function ContactForm() {
 
 
     return (
-        <section className="py-6 px-6 w-full mx-auto">
-            <h1 className="text-3xl font-bold mb-6 text-center">Contact Us</h1>
+        <section className="w-full mx-auto">
             <form
                 onSubmit={handleSubmit}
                 method="POST"

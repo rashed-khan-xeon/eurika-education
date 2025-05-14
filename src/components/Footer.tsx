@@ -8,7 +8,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-gray-900 text-white py-10 px-6">
-      <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-8">
+      <div className="max-w-7xl mx-auto grid md:grid-cols-5 gap-8">
 
         {/* Brand / Description */}
         <div>
@@ -102,6 +102,18 @@ const Footer = () => {
               </a>
             </div>
           </address>
+        </div>
+
+        <div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d228.15550257128967!2d90.3709626!3d23.8012385!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c167b0886a37%3A0xe1776f8607b8a779!2sEurika%20Education!5e0!3m2!1sen!2sbd!4v1747250283581!5m2!1sen!2sbd"
+            width="300"
+            height="250"
+            style={{ border: 0 }}
+            allowFullScreen={false}
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade">
+
+          </iframe>
         </div>
       </div>
 
