@@ -285,8 +285,46 @@ const packages = [
       'All public universities', 
       'Scholarship available'
     ],
+  },
+  {
+    title: 'United Kingdom (UK)',
+    image: '/images/uk.jpg',
+    ielts: true,
+    tutionFee: "Affordable Tuition fee",
+    deadLine: "September(2025) intake ",
+    features: [
+      'No service charge',
+      'Granted admission and visa',
+      'Study Gap Accepted',
+      'IELTS- 5++ or MOI',  
+      'Scholarship available',
+      'Affordable Tuition fee',
+      'English speaking country',
+      'Huge income opportunity'
+    ],
+  },
+  {
+    title: 'Cyprus',
+    image: '/images/cyprus.avif',
+    ielts: true,
+    tutionFee: "3000-5000 Euro per year  Tuition fees ",
+    deadLine: "September(2025) intake ",
+    features: [
+      '(8/8.5) Lakh taka ',
+      '𝗡𝗼 𝗡𝗲𝗲𝗱 𝘁𝗼 𝗚𝗼 𝗜𝗻𝗱𝗶𝗮',
+      'Study Gap Accepted',
+      'Affordable Tuition fee ',  
+      'IELTS –4.5+',  
+      'Credit can be transferred',
+      'All public universities',
+      'Scholarship available',
+      'Granted admission and visa'
+    ],
   }
 ];
+ 
+   
+ 
 
 const CurrentPackage = () => {
   return (
