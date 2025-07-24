@@ -320,6 +320,25 @@ const packages = [
       'Scholarship available',
       'Granted admission and visa'
     ],
+  },
+  {
+    title: 'Malaysia',
+    image: '/images/malaysia.jpg',
+    ielts: false,
+    tutionFee: "",
+    deadLine: "September(2025) intake",
+    features: [
+      '(3/3.30) Lakh taka ',
+      'International standard university and curriculum',
+      'Opportunity to travel to Europe by credit transfer ',
+      'Visa processing and flights within two months',  
+      'Opportunity to study at a very low cost ',  
+      'Low CGPA and Study Gap Allied',
+      'University fees after visa',
+      'Malaysia to Europe (Schengen area) study visa opportunity ',
+      'Without IELTS',
+      'All cost includes'
+    ]
   }
 ];
  
